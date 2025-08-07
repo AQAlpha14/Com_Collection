@@ -1,10 +1,10 @@
-import Footer1 from "@/components/Footer/Footer1";
+import Footer from "@/components/Footer/Footer";
 import React from "react";
 
 export default function Layout({ children }) {
   return <div>
     
     {children}
-    <Footer1 />
+    <Footer />
     </div>;
 }

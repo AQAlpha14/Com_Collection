@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
 import { Heading5, Paragraph } from "../Typography";
-import { footerSections, socialLinks } from "@/mockData/MockData";
 import Link from "../Link";
 import Image from "../Image";
+import { footerSections, socialLinks } from "@/MockData/MockData";
 
-const Footer1 = () => {
+const Footer = () => {
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
   return (
@@ -106,4 +106,4 @@ const FooterSection = ({ title, links, className }) => (
     </div>
   </>
 );
-export default Footer1;
+export default Footer;
