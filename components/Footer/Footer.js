@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { Heading5, Paragraph } from "../Typography";
-import Link from "../Link";
 import Image from "../Image";
 import { footerSections, socialLinks } from "@/MockData/MockData";
 
