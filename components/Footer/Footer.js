@@ -3,6 +3,7 @@ import React from "react";
 import { Heading5, Paragraph } from "../Typography";
 import Image from "../Image";
 import { footerSections, socialLinks } from "@/MockData/MockData";
+import Link from "next/link";
 
 const Footer = () => {
   const currentDate = new Date();
@@ -75,7 +76,7 @@ const Footer = () => {
 
 const FooterSection = ({ title, links, className }) => (
   <>
-    <div className={`pt-2 ${className}`}>
+    {/* <div className={`pt-2 ${className}`}>
       <div className="">
         <Heading5 blackHeading={title} className="!text-left " />
       </div>
@@ -102,7 +103,7 @@ const FooterSection = ({ title, links, className }) => (
         </div>
       ))}
 
-    </div>
+    </div> */}
   </>
 );
 export default Footer;
